@@ -10,7 +10,8 @@
 .clickable:hover {
   text-decoration: underline;
 }
-.body-background {
-background-image: url(img/h-img.jpg);
-background-size: 30%; 
+
+.body {
+  background-image: url('img/h_img.jpg');
+  background-size: 30%; 
 }
