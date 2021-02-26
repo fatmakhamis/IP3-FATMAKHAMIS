@@ -1,8 +1,47 @@
-.walrus-showing {
+@import url(./fonts.css);
+{
+  background-color: black;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", cursive;
+  line-height: 1.6;
+}
+#showcase
+{
+  justify-content: center;
+  align-items : center;
+  text-align : center;
+  background-image: url(../img/h_img.jpg);
+  background-color: pink;
+  background-size : cover;
+  height: 100vh;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  padding: 0 20px;
+  /**margin: 100px;**/
+}
+#showcase.h1
+{
+  font-size:50px;
+  padding-top: 20px;
+  text-align: center;
+  font-family: "Roboto", cursive;
+  text-transform: uppercase;
+}
+#showcase.p
+{
+  font-size: 10px;
+  font-weight: 20;
+  color: blue;
+}
+
+/**.walrus-showing {
     display: none;
   }
   
-  .clickable {
+ .clickable {
     cursor: pointer;
     color: #0088cc;
 }
@@ -11,7 +50,25 @@
   text-decoration: underline;
 }
 
-.body {
-  background-image: url('img/h_img.jpg');
-  background-size: 30%; 
+.container{
+  width: 80%;
+  margin: auto;
+}
+
+/**.content
+background-color: rgba(206, 17, 38, 0.72);
+background-image: url('img/h_img.jpg');
+margin-left: 20%;
+margin-right: 20%;
+margin-top: 10px;
+margin-bottom: auto;
+padding-bottom: 20px;
+box-shadow: 2px 2px #000000;
+border-radius: 0.5%;
+}**/
+
+}
+body{
+  
+
 }
