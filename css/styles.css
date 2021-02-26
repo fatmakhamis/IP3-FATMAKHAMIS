@@ -36,6 +36,13 @@
   font-weight: 20;
   color: blue;
 }
+#section-a
+{
+  padding: 20px;
+  background: white;
+  color: black;
+  text-align: center;
+}
 
 /**.walrus-showing {
     display: none;
