@@ -1,4 +1,5 @@
 @import url(./fonts.css);
+body
 {
   background-color: black;
   margin: 0;
@@ -40,10 +41,25 @@
 {
   padding: 20px;
   background: white;
-  color: black;
+  text-color: black;
   text-align: center;
 }
-
+#section-b
+{
+  justify-content: center;
+  align-items : center;
+  text-align : center;
+  background-color: pink;
+  background-size : cover;
+  height: 100vh;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  padding: 0 20px;
+  background-image: url(../img/s_image.jpg);
+  text-align: center;
+ }
+<div class= "box1">
 /**.walrus-showing {
     display: none;
   }
