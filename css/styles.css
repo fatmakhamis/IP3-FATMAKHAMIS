@@ -1,7 +1,7 @@
 @import url(./fonts.css);
 body
 {
-  background-color: black;
+  background-color: pink;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -41,7 +41,7 @@ body
 {
   padding: 20px;
   background: white;
-  text-color: black;
+  color:black;
   text-align: center;
 }
 #section-b
@@ -49,9 +49,10 @@ body
   justify-content: center;
   align-items : center;
   text-align : center;
+  color: white;
   background-color: pink;
   background-size : cover;
-  height: 100vh;
+  height: 40vh;
   background-position: center;
   display: flex;
   flex-direction: column;
@@ -59,7 +60,17 @@ body
   background-image: url(../img/s_image.jpg);
   text-align: center;
  }
-<div class= "box1">
+ #section-b.p
+ {
+  font-size: 10px;
+  font-weight: 20;
+  color: white;
+}
+#section-c
+{
+  display: flex;
+}
+
 /**.walrus-showing {
     display: none;
   }
