@@ -11,7 +11,7 @@
 </head>
 <body>
     <header id= "showcase"> 
-      <div clas = "container"></div>  
+      <div class = "container"></div>  
        <div class= "box">
           <h2>WELCOME <BR>TO DELANI STUDIO </h2><BR>
           <p>PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIRONMENT</p>
@@ -35,14 +35,16 @@
  </section>
 
  <section id= "boxes">
-   <div class= "container">
+   <div class= "container"></div>
+  
    <div class = "box">
+     <h2>WHAT WE DO </h2>
      <img src="img/d_icon.png">
      <h3>DESIGN</h3> 
      <p>What a cute walrus! <span class="clickable"></span> </p>
    </div>
       
-  <div class = "box">
+    <div class = "box">
           <img src="img/p_icon.png">
           <h3>DEVELOPMENT</h3> 
           <p>What a cute walrus! <span class="clickable"></span> </p>
@@ -52,41 +54,128 @@
           <img src="img/dev_icon.png">
           <h3>PRODUCT MANAGEMENT</h3> 
           <p>What a cute walrus! <span class="clickable"></span> </p>
-    </div>
+  </div>
+  </section>
   
-    <section id = "icons">
-        <div class= "container">
-        <div class = "box">
-          <img src="img/d_icon.png">
-          <h3>DESIGN</h3> 
-          <p>What a cute walrus! <span class="clickable"></span> </p>
-        </div>
-           
-       <div class = "box">
-               <img src="img/p_icon.png">
-               <h3>DEVELOPMENT</h3> 
-               <p>What a cute walrus! <span class="clickable"></span> </p>
-         </div>
-     
-         <div class = "box">
-               <img src="img/dev_icon.png">
-               <h3>PRODUCT MANAGEMENT</h3> 
-               <p>What a cute walrus! <span class="clickable"></span> </p>
-         </div>
+    <section id = "portfolio">
+        <div class= "content-wrapper">
+        <div class = "portfolio-items-wrapper">
+        
+        <div class = "portfolio-item-wrapper">
+             <div class="portfolio-imag-background" style="background-image:url(img/work4.jpg)"></div>
+               
+               <div class="img-text-wrapping">
+                <div class="logo-wrapper">
+                    <img src="img/work4.jpg">
+                </div>
+                 <div class="subtitle">
+                   my name is fatma khamis
+                 </div>
+                </div> 
+                </div>
+                <div class = "portfolio-item-wrapper">
+                    <div class=portfolio-imag-background" style="background-image:url(img/work4.jpg)"></div>
+                      
+                      <div class="img-text-wrapping">
+                       <div class="logo-wrapper">
+                           <img src="img/work3.jpg">
+                       </div>
+                        <div class="subtitle">
+                          my name is fatma khamis
+                        </div>
+                       </div> 
+                       </div>
+                       <div class = "portfolio-item-wrapper">
+                          <div class="portfolio-imag-background" style="background-image:url(img/work4.jpg)"></div>
+                            
+                            <div class="img-text-wrapping">
+                             <div class="logo-wrapper">
+                                 <img src="img/work2.jpg">
+                             </div>
+                              <div class="subtitle">
+                                my name is fatma khamis
+                              </div>
+                             </div> 
+                             </div>
+                             <div class = "portfolio-item-wrapper">
+                                <div class="portfolio-imag-background" style="background-image:url(img/work4.jpg)"></div>
+                                  
+                                  <div class="img-text-wrapping">
+                                   <div class="logo-wrapper">
+                                       <img src="img/work1.jpg">
+                                   </div>
+                                    <div class="subtitle">
+                                      my name is fatma khamis
+                                    </div>
+                                   </div> 
+                                   </div>
+                                   <div class = "portfolio-item-wrapper">
+                                      <div class="portfolio-imag-background" style="background-image:url(img/work4.jpg)"></div>
+                                        
+                                        <div class="img-text-wrapping">
+                                         <div class="logo-wrapper">
+                                             <img src="img/work5.jpg">
+                                         </div>
+                                          <div class="subtitle">
+                                            my name is fatma khamis
+                                          </div>
+                                         </div> 
+                                         </div>
+                                         <div class = "portfolio-item-wrapper">
+                                            <div class="portfolio-imag-background" style="background-image:url(img/work4.jpg)"></div>
+                                              
+                                              <div class="img-text-wrapping">
+                                               <div class="logo-wrapper">
+                                                   <img src="img/work6jpg">
+                                               </div>
+                                                <div class="subtitle">
+                                                  my name is fatma khamis
+                                                </div>
+                                               </div> 
+                                               </div>
+                                               <div class = "portfolio-item-wrapper">
+                                                  <div class="portfolio-imag-background" style="background-image:url(img/work4.jpg)"></div>
+                                                    
+                                                    <div class="img-text-wrapping">
+                                                     <div class="logo-wrapper">
+                                                         <img src="img/work7.jpg">
+                                                     </div>
+                                                      <div class="subtitle">
+                                                        my name is fatma khamis
+                                                      </div>
+                                                     </div> 
+                                                     </div>
+                                                     <div class = "portfolio-item-wrapper">
+                                                        <div class="portfolio-imag-background" style="background-image:url(img/work4.jpg)"></div>
+                                                          
+                                                          <div class="img-text-wrapping">
+                                                           <div class="logo-wrapper">
+                                                               <img src="img/work.jpg">
+                                                           </div>
+                                                            <div class="subtitle">
+                                                              my name is fatma khamis
+                                                            </div>
+                                                           </div> 
+                                                           </div>
+                                                          </section>
+
+                       
+         
+
     
     <section id= "contact">
         <div class= "container">
         <h1> CONTACT US</p>
-        <form method = "POST" onSubmit= "submitFunction(event)">
+        <form method = "POST" onSubmit= "submitFunction(event)" target="_self">
         <input id="name" type ="text" name= "name" placeholder="Name...">
-        <input id="email" type ="email" name= "name" placeholder="Email...">
-        <input id="message" type ="text" name= "name" placeholder="Your message here...">    
+        <input id="email" type ="email" name= "name" placeholder="Email..."><br>
+        <input id="message" type ="text" name= "name" placeholder="Your message here..." size="42">    
           </form>
-         </section>
+      </section>
   
-         <footer>
-   <p> DELANI STUDIO <br>2019 </p>
-  </footer>
+      <footer>
+      <p> DELANI STUDIO <br>2019 </p>
+      </footer>
 
     
 
