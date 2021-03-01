@@ -13,6 +13,7 @@ body
   justify-content: center;
   align-items : center;
   text-align : center;
+  color: white;
   background-image: url(../img/h_img.jpg);
   background-color: pink;
   background-size : cover;
@@ -25,7 +26,7 @@ body
 }
 #showcase.h1
 {
-  font-size:50px;
+  font-size: 50px;
   padding-top: 20px;
   text-align: center;
   font-family: "Roboto", cursive;
@@ -36,6 +37,10 @@ body
   font-size: 10px;
   font-weight: 20;
   color: blue;
+}
+#showcase.icon
+{
+  align-items : bottom; 
 }
 #section-a
 {
@@ -60,25 +65,19 @@ body
   background-image: url(../img/s_image.jpg);
   text-align: center;
  }
- #section-b.p
+#section-b .p
  {
   font-size: 10px;
   font-weight: 20;
   color: white;
 }
-#boxes .box
+#section-c .box 
 {
-  float: left;
-  text-align:center;
-  padding: 10px
-}
-#boxes.h2
-{
-  font-size:20px;
-  padding-top: 20px;
+  /*display: grid;
+  grid-template-columns: 1fr 1fr 1fr; */
+  flex-direction: column;
   text-align: center;
-  font-family: "Roboto", cursive;
-  text-transform: uppercase;
+  padding: 10px;
 }
 .portfolio-items-wrapper
 {
@@ -97,12 +96,11 @@ grid-template-columns: 1fr 1fr 1fr 1fr;
   background-position: center;
   background-repeat: no-repeat;
 }
-
 .img-text-wrapping
 {
-  /*position : absolute;
-  top: 0; */
-  flex-direction:column;
+  position : relative;
+  top: 0; 
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 10%;
@@ -110,7 +108,27 @@ grid-template-columns: 1fr 1fr 1fr 1fr;
   padding-left: 10px;
   padding-right: 10px;
 }
-
+.logo-wrapper-img
+{
+  width :50%;
+  margin-bottom: 20px;
+}
+.img-text-wrapper .subtitle
+{
+transition:1s;
+font-weight: 600;
+color :transparent
+}
+.img-text-wrapper:hover .subtitle
+{
+font-weight: 600;
+color : blue;
+}
+.img-darken
+{
+transition :1s;
+filter: brightness(10%);
+}
 #contact
 {
   justify-content: center;
