@@ -37,63 +37,55 @@
     or just the pieces you need.</p>
  </section>
  
- <h2 id= design><strong>WHAT WE DO </strong></h2>
+ 
+<span id= "design"><h6><strong>WHAT WE DO </strong></h6>
  <section id = "section-c">
-       <!--<div class="subtitle">
-         DESIGN
-       </div>-->
-      <div class = "box">
+    
         <div class="col-md-4">
             <div class="show1">
                 <span id="clickable1"><img src="img/d_icon.png" alt="design"></span>
        </div>
-       <div class="hide1">
-          <span id="clickable1"><h6>DESIGN</h6>
- 
-          <pclass= hidden>Our design practice offers a full range of services including brand strategy, interaction
-            and visual design and user experience testing. Throughout your project, our designers create and implement visual design
+       
+          <span id="clickable1" ><h6><strong>DESIGN</strong></h6>
+            <div id="hide1" >
+          <p>Our design practice offers a full range of services including brand strategy, interaction
+            and visual design and user experience testing. <br> Throughout your project, our designers create and implement visual design
             and workflows, solicit user feedback and work with you to make sure what gets built is what is needed.
           </p></span>
         </div>
         </div>
      </div>
 
-            <!--<div class="subtitle">
-             DEVELOPMENT
-             </div>-->
+           
              <div class="col-md-4">
                 <div class="show2">
                 <span id="clickable2"><img src="img/p_icon.png" alt="development"></span>
                 </div>
-             <div class="hide2">
-                <span id="clickable2"><h6>DEVELOPMENT</h6>
-       
-                  <pclass= hidden>All engineers are fluent in the latest enterprise, mobile and web development technologies.
+             
+                <span id="clickable2"><h6><strong>DEVELOPMENT</strong></h6>
+                  <div id="hide2">
+                  <p>All engineers are fluent in the latest enterprise, mobile and web development technologies.<br>
                       They collaborate with your team to write, and improve code on a daily basis, using proven
                       practices such as test-driven
                       development and pair programming.
                 </p></span>
-              </div>
+            
               </div>
            </div>
     
 
-   <!--<div class = "box3">>
-        <div class="subtitle">
-          PRODUCT MANAGEMENT
-        </div>-->
-                <div class="col-md-4">
+                   <div class="col-md-4">
                   <div class="show3">
                   <span id="clickable3"><img src="img/dev_icon.png" alt="PRODUCT MANAGEMENT"></span>
                   </div>
-              <div class="hide3">
-                <span id="clickable3"><h6>DESIGN</h6>
-                
-                <pclass= hidden>Planning and development is iterative. Because we are constantly coding and testing,<br>
+              
+                <span id="clickable3"><h6><strong>PRODUCT MANAGEMENT</strong></h6>
+                  <div id="hide3">
+                <p>Planning and development is iterative. Because we are constantly coding and testing,<br>
                     the products we build are always ready to go live.This iterative process allows for
                     changes as business requirements evolve.
                 </p></span>
-              </div>
+              
               </div>
            </div>
        </section>
@@ -229,39 +221,51 @@
       <p> DELANI STUDIO <br>2019 </p>
       </footer>
      
-  
+      <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+        crossorigin="anonymous"></script>
+       
+       <script>
+         $(document).ready(function(){
+        $("#clickable1").on('click',function(){
+          $("#clickable1").fadeToggle(2000 ,function(){;
+            $("#hide2").hide();
+            $("#hide3").hide();
+            $("#clickable2").show();
+            $("#clickable3").show();
+          $("#hide1").show();
+          });
+          });
+         
+          $("#clickable2").on('click',function(){
+          $("#clickable2").fadeToggle(2000 ,function(){;
+          $("#hide1").hide();
+          $("#clickable1").show();
+          $("#clickable3").show();
+          $("#hide3").hide();
+          $("#hide2").show();
+          });
+          });
+
+          $("#clickable3").on('click',function(){
+          $("#clickable3").fadeToggle(2000 ,function(){;
+          $("#hide2").hide();
+          $("#hide1").hide();
+          $("#clickable2").show();
+          $("#clickable1").show();
+          $("#hide3").show();
+          });
+          });
+        });
+          </script>  
+        
     </body>
-    <script src="js/scripts.js"></script>
-    <script src="js/jquery.js"></script>
-   </html>
+        
+    <!--<script src="js/scripts.js"></script>
+    <script src="js/jquery.js"></script>-->
+  
+    </html>
     
-<!--<section class="banner" id="banner">
-  <div class="content">
-    <h2>WELCOME <BR>TO DELANI STUDIO </h2>
-      <p>PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIRONMENT</p>
-  </div>
-</section>
-   
 
-<div class="content">
-    <div class="container">
-        <a target="_blank" href="img/h_img.jpg">
-        <img src="img/h_img.jpg" alt="An image of Delani studio">
-        </a>
-          <div class="desc">WELCOME TO DELANI</div>
-    </div>
-      <h1>Peek-a-boo</h1>
-      <p><strong>Peek-a-boo</strong> is an ancient game riddled in mystery and deceit. Though it appears to be an innocent childrens' pastime, you may change your mind when you learn of its treacherous history.</p>
-  <div class="walrus-hidden">
-    <p>Let's play peek-a-boo. <span class="clickable">Click here</span> to see the surprise!</p>
-  </div>
-
-  <div class="walrus-showing">
-    <p>What a cute walrus! <span class="clickable">Click here</span> to hide her again.</p>
-    <img src="img/h_img.jpg">
-  </div>
-</div>-->
-
-</body>
-</html>
 

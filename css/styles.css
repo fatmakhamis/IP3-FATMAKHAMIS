@@ -76,17 +76,31 @@ body
   color: white;
 }
 /*what we do section*/
-#h2
+#design
 {
+  justify-content: center;
+  align-items : center;
   text-align: center;
   padding: auto;
 }
-#section-c 
+#section-c
 {
   display: flex;
   margin: 50px;
   text-align: center;
   padding: 10px;
+}
+#hide1
+{
+display: none;
+}
+#hide2
+{
+display: none;
+}
+#hide3
+{
+display: none;
 }
 /* Pertfolio */
 .portfolio-items-wrapper
