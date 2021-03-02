@@ -88,7 +88,8 @@ body
   display: flex;
   margin: 50px;
   text-align: center;
-  padding: 10px;
+  /*padding: 10px;*/
+  padding: 0;
 }
 #hide1
 {
@@ -111,6 +112,10 @@ grid-template-columns: 1fr 1fr 1fr 1fr;
 .portfolio-item-wrapper
 {
   position: relative;
+  /*left:0;
+  top: 0;
+  height: 100%;
+  width: 100%;*/
 }
 .portfolio-img-background
 {
@@ -124,6 +129,7 @@ grid-template-columns: 1fr 1fr 1fr 1fr;
 {
   position : relative;
   top: 0; 
+  left: 0;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -134,19 +140,38 @@ grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 .logo-wrapper-img
 {
-  width :50%;
-  margin-bottom: 20px;
+  display: block;
+  width :100%;
+  /*margin-bottom: 20px;*/
 }
-.img-text-wrapper .subtitle
+/*.subtitle
+{ 
+  display: none; 
+}*/
+.img-text-wrapping .subtitle
 {
+position: absolute;
 transition:1s;
 font-weight: 600;
-color :transparent
+color :white;
+background-color: rgba(0, 0,0, 0.6);
+top: 0;
+left:0;
+height: 100%;
+width: 100%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+opacity: 0;
+transition: opacity 0.25s;
 }
-.img-text-wrapper:hover .subtitle
+.img-text-wrapping:hover .subtitle
 {
+opacity: 1;
 font-weight: 600;
-color : blue;
+/*background-color: white;*/
+color: blue;
 }
 .img-darken
 {
