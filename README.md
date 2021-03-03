@@ -1,7 +1,7 @@
-# Akan name Finder
-#### By Fatma Khamis, 21/02/2021
+# DELANI STUDIO
+#### By Fatma Khamis, 26/02/2021
 ## Description
-This web application requests for your birthday details and gender then calculates the day you were born. Depending on your gender Your Akan name will be displayed. Akan names are derived from Ghanian culture. Frequently in Ghana, children are given their first name as a 'day name' which corresponds to the day in the week they were born. You need to fill a form with your birthdate details to display your Akan name.
+This web application displays services offered at Delani Studio and it also prompts the viewer to fill a form on feedback.
 ##Demo
 Here is a working live demo:https://fatmakhamis.github.io/AKAN-NAME/
 ## Setup/Installation Requirements
@@ -10,17 +10,17 @@ Here is a working live demo:https://fatmakhamis.github.io/AKAN-NAME/
 * Open project on VSCode
 * Start the project on live server
 ##Behavior Development Driven
-* the app prompts a user to enter Date of Birth and gender
-* function for validity check will execute to confirm the correct format of year, month and date.
-* Depending on the gender the app will determine the day of the week you are born
-* Finally it will submit the Akan name 
-* You can reset and start a fresh or enter new date
+* the app prompts a user to fill feedback form 
+* the user should fill his name,email and comments 
+* the system should submit a pop up thankful message to the user
+* the system also tracks all emails and messages from the user
 ## Known Bugs
 * No known bugs so far
 ## Technologies Used
 * HTML
 * CSS
 * Javascript
+* jquery 
 ## Support and contact details
 To fix a abug or enhance this project,follow thw steps below:
 * Fork the repo
