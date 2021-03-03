@@ -112,10 +112,6 @@ grid-template-columns: 1fr 1fr 1fr 1fr;
 .portfolio-item-wrapper
 {
   position: relative;
-  /*left:0;
-  top: 0;
-  height: 100%;
-  width: 100%;*/
 }
 .portfolio-img-background
 {
@@ -173,6 +169,10 @@ font-weight: 600;
 /*background-color: white;*/
 color: blue;
 }
+.img-text-wrapping--blur 
+{
+backdrop-filter: blur(5px);
+}
 .img-darken
 {
 transition :1s;
@@ -186,40 +186,32 @@ filter: brightness(10%);
   color: white;
   background-color: pink;
   background-size : cover;
-  height: 40vh;
+  height: 50vh;
   background-position: center;
   display: flex;
   flex-direction: column;
-  padding: 0 20px;
+  padding: 30px;
   background-image: url(../img/c_image.jpg);
-  text-align: center;
- }
-/**.walrus-showing {
-    display: none;
   }
-  
- .clickable {
-    cursor: pointer;
-    color: #0088cc;
+#contact .message
+{
+width: 150%;
+align-items : center;
+text-align : center;
+display: flex;
 }
-
-.clickable:hover {
-  text-decoration: underline;
+.input-field ,
+.message
+{
+  width :100%;
 }
-
-.container{
-  width: 80%;
-  margin: auto;
+.message textarea
+{
+  height: 220px;
+  width :67%;
 }
-
-/**.content
-background-color: rgba(206, 17, 38, 0.72);
-background-image: url('img/h_img.jpg');
-margin-left: 20%;
-margin-right: 20%;
-margin-top: 10px;
-margin-bottom: auto;
-padding-bottom: 20px;
-box-shadow: 2px 2px #000000;
-border-radius: 0.5%;
-}**/
+.input-field .input,
+.message textarea
+{
+  margin :10px;
+}

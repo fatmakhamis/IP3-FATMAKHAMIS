@@ -202,11 +202,16 @@
      <section id= "contact">
         <div class= "container"></div>
         <h1> CONTACT US</p>
+          <div class= "input-field">
         <form method = "POST" onSubmit= "submitFunction(event)" target="_self">
-        <input id="name" type ="text" name= "name" placeholder="Name...">
-        <input id="email" type ="email" name= "name" placeholder="Email..."><br>
-        <input id="message" type ="text" name= "name" placeholder="Your message here..." size="42">    
-          </form>
+        <input class="name" type ="text" name= "name" placeholder="Name...">
+        <input class="email" type ="email" name= "email" placeholder="Email..."><br>
+          </div>
+        <div class= "message">
+        <textarea placeholder="Your message here..." ></textarea>  </div>
+        <div class="btn">Send></div> 
+           
+      </form>
       </section>
   
       <footer>
