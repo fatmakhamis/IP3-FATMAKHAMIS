@@ -2,8 +2,8 @@
 #### By Fatma Khamis, 26/02/2021
 ## Description
 This web application displays services offered at Delani Studio and it also prompts the viewer to fill a form on feedback.
-##Demo
-Here is a working live demo:https://fatmakhamis.github.io/AKAN-NAME/
+## Demo
+Here is a working live demo:https://fatmakhamis.github.io/IP3-FATMAKHAMIS/.
 ## Setup/Installation Requirements
 * Clone the repository
 * Change directory to the project directory
