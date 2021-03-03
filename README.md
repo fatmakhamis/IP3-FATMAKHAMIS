@@ -9,7 +9,7 @@ Here is a working live demo:https://fatmakhamis.github.io/IP3-FATMAKHAMIS/.
 * Change directory to the project directory
 * Open project on VSCode
 * Start the project on live server
-##Behavior Development Driven
+## Behavior Development Driven
 * the app prompts a user to fill feedback form 
 * the user should fill his name,email and comments 
 * the system should submit a pop up thankful message to the user
